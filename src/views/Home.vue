@@ -1,22 +1,19 @@
 <template>
-  <div class="home">
-		<h1>Værsego'! Lag magi</h1>
-  </div>
+	<div class="Marvin">
+		<iframe title="marvin" class="iframe_container" src="https://marvin.k8s.oslo.kommune.no" />
+	</div>
 </template>
 
 <script>
-// @ is an alias to /src
-
 export default {
-  name: 'Home'
+	name: 'Marvin'
 }
 </script>
 
 <style lang="scss" scoped>
-p {
-	font-family: 'Oslo Sans', Avenir, Helvetica, Arial, sans-serif;
-}
-p.old {
-	font-family: Avenir, Helvetica, Arial, sans-serif;
+.iframe_container {
+	width: 100%;
+	height: 100%;
 }
 </style>
+
